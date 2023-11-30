@@ -1,3 +1,52 @@
+# Zapisovanje ur
+
+## plan dela
+
+- izberemo arhitekturo
+    - jeziki
+    - baza
+    - single-page app vs. klasična
+    - kateri javascript framework
+    - kam bomo aplikacijo deploy-ali
+- design web page
+    - v vizualnem orodju
+- definicija funkcionalnosti
+- sprogramirati
+- deployat
+- sporočilo za javnost, povabilo projateljev
+- testiranje aplikacije
+- analitika za število uporabnikov
+- možnost za feedback in predloge za izboljšave
+- basic SEO
+
+## Funkcionalnosti
+
+- app vzame podatke od uporabnika
+    - podatki:
+        - imena sodelavcev
+        - interna šifra sodelavcev 
+        - email vseh sodelavcev (nadgradna)
+        - ime podjetja
+        - ~~za koliko ur je vsak zaposlen~~ kakšen je delovni čas (prihod od-do, odhod od-do)
+        - če je bil uporabnik kk dan odsoten (nadgradnja)
+        - dnevni čas prihoda in odhoda
+    - te podatke vnesemo v CSV obliki
+- za vsako ime zgeneriraj tabelo prihodov in odhodov
+    - printable page
+    - izvoz podatkov v excel
+
+
+## Arhitektura projekta
+
+- baze ne potrebujemo
+    - tabelo generiramo on-the-fly
+- za FE framework uporabimo React
+
+
+
+---
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
